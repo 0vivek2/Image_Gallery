@@ -6,8 +6,6 @@ import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
 <BrowserRouter basename='/Image_Gallery/'>
-  <StrictMode>
     <App />
-  </StrictMode>,
   </BrowserRouter>
 )
