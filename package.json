@@ -1,9 +1,12 @@
 {
+  "homepage": "https://0vivek2.github.io/Image_Gallery",
   "name": "mygallery",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
@@ -12,7 +15,8 @@
   "dependencies": {
     "axios": "^1.11.0",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.8.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.30.1",
